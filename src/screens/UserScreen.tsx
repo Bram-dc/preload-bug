@@ -10,7 +10,7 @@ const UserScreen = (_: UserScreenProps) => {
 			<p>Hello from UserScreen</p>
 
 			<Link href="/">
-				<Text>Naar dashboard</Text>
+				<Text>To dashboard</Text>
 			</Link>
 		</>
 	)

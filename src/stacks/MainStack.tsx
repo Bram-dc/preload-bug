@@ -21,10 +21,7 @@ export const MainStack = createNativeStackNavigator({
 				title: 'User',
 			},
 			linking: {
-				path: '/leden',
-				parse: {
-					userId: Number,
-				},
+				path: '/users',
 			},
 		},
 	},

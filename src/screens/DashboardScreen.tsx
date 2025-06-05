@@ -9,8 +9,8 @@ const DashboardScreen = (_: DashboardScreenProps) => {
 		<>
 			<p>Hello from DashboardScreen</p>
 
-			<Link href="/leden">
-				<Text>Naar leden</Text>
+			<Link href="/users">
+				<Text>To users</Text>
 			</Link>
 		</>
 	)

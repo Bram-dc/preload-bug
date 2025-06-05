@@ -1,6 +1,5 @@
-import type { BottomTabNavigationProp } from '@react-navigation/bottom-tabs'
 import type { StaticParamList } from '@react-navigation/native'
-import { createNativeStackNavigator } from '@react-navigation/native-stack'
+import { type NativeStackNavigationProp, createNativeStackNavigator } from '@react-navigation/native-stack'
 import { MainStack } from './MainStack'
 
 export const RootStack = createNativeStackNavigator({
@@ -19,4 +18,4 @@ export const RootStack = createNativeStackNavigator({
 
 export type RootStackParamList = StaticParamList<typeof RootStack>
 
-export type RootStackNavigationProp = BottomTabNavigationProp<RootStackParamList>
+export type RootStackNavigationProp = NativeStackNavigationProp<RootStackParamList>
